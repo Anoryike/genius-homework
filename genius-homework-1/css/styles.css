@@ -101,15 +101,10 @@ ul {
   font-family: Play, sans-serif;
   font-size: 64px;
   font-weight: 700;
-  text-align: center;
 }
 
 .section-title .accent {
   color: var(--color-brand-light);
-}
-
-.about-us-title {
-  text-align: left;
 }
 
 /* About us section */
