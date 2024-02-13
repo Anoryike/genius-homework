@@ -1,0 +1,42 @@
+.form-terms {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.5;
+  max-width: 210px;
+  color: var(--color-secondary-light);
+
+  &__link {
+    color: var(--color-secondary-light);
+  }
+}
+
+.form-button {
+  display: block;
+  margin: 0 auto 8px;
+  width: 100%;
+  max-width: 240px;
+  font-size: 14px;
+
+  &:hover {
+    color: var(--color-brand-light);
+  }
+
+  @media screen and (min-width: $bp-tablet) {
+    max-width: 280px;
+    font-size: 16px;
+  }
+}
+
+.form-offer {
+  margin: 0 auto 24px;
+  max-width: 300px;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--color-primary-light);
+  text-align: center;
+
+  @media screen and (min-width: $bp-tablet) {
+    margin-bottom: 32px;
+  }
+}
